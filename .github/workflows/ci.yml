@@ -16,3 +16,9 @@ jobs:
 
     - name: Run test with jest and supertest
       run: npm test
+
+    - name: Install Vercel CLI
+      run: npm install -g vercel
+
+    - name: Deploy to Vercel
+      run: vercel --prod --token km4oPgf3m2LueHqcHl4ljOpo
